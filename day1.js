@@ -3,8 +3,7 @@ var numWaterBottles = function(numBottles, numExchange) {
     let exchange = Math.floor(numBottles /numExchange );
     let emptyBottles = Math.floor(numBottles % numExchange)
     total += exchange;
-            emptyBottles += exchange;
-
+    emptyBottles += exchange;
     do{
         if (emptyBottles >= numExchange){         
             exchange = Math.floor(emptyBottles / numExchange);  // 1 ,7, 4 remain 3
