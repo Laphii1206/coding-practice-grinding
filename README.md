@@ -1,6 +1,4 @@
-LeetCode-JS
+This repository is where I solve leetcode problems or any other coding question platform exist
 
-This repository is where I solve LeetCode problems。
-
-Goal: Solve **at least one** problem every day using **JS**.
+Goal: Solve **2-3** problem every day using **JS**.
 
