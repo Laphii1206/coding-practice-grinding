@@ -2,7 +2,7 @@ var findMedianSortedArrays = (nums1, nums2) => {
     let combined = nums1.concat(nums2);
     let j = 0
     let k = combined.length - 1;
-    combined.sort(function(a, b){return a - b});
+    combined.sort((a, b) => a - b); // sort num
 
     if (combined.length % 2 == 1) {
         return combined[parseInt(combined.length / 2)];
