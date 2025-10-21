@@ -8,10 +8,8 @@ var findMedianSortedArrays = (nums1, nums2) => {
         return combined[parseInt(combined.length / 2)];
     } else {
 
-        while (j < k) {
-            j++;
-            k--;
-        }
+        k = k / 2;
+        j = k + 1
 
         return (combined[j] + combined[k]) / 2.0;
     }
