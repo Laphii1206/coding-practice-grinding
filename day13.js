@@ -1,5 +1,5 @@
 var numberOfBeams = (bank) => {
-    bank = bank.map(row => row.split('').map(Number));
+    bank = bank.map(x => x.split('').map(Number));
     let j = 0
     let count = 0
     let previousCount =0
